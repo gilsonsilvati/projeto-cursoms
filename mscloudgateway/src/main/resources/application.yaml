@@ -1,0 +1,39 @@
+############################
+########## CONFIG ##########
+spring:
+  application:
+    name: mscloudgateway
+  output:
+    ansi:
+      enabled: ALWAYS
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enable: true
+          lower-case-service-id: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/mscourserealm
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://cursoms-eureka-user:akre-rcusmueruoe-ss@localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  file:
+    name: ./logs/log-file.log

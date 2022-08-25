@@ -1,0 +1,22 @@
+############################
+########## CONFIG ##########
+spring:
+  application:
+    name: eurekaserver
+  output:
+    ansi:
+      enabled: ALWAYS
+  security:
+    basic:
+      enable: true
+    user:
+      name: cursoms-eureka-user
+      password: akre-rcusmueruoe-ss
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

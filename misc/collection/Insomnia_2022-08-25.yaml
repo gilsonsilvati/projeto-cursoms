@@ -1,0 +1,418 @@
+_type: export
+__export_format: 4
+__export_date: 2022-08-25T16:15:23.958Z
+__export_source: insomnia.desktop.app:v2022.5.1
+resources:
+  - _id: req_673334f074a0416faf5c518439c95656
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1661363643085
+    created: 1660843065739
+    url: ""
+    name: Keycloak token
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: oauth2
+      grantType: client_credentials
+      accessTokenUrl: http://localhost:8081/realms/mscourserealm/protocol/openid-connect/token
+      clientId: mscredito
+      clientSecret: tBZv5Vw1j8LCI7AtBj3MyRS6bGZvELU9
+    metaSortKey: -1660843065739
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_6d21e9669543490a9044fbbd61d1eb10
+    parentId: null
+    modified: 1659565267231
+    created: 1659565267231
+    name: Curso Microservices
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_f92edffcb6d84236b3d9ee5420807b06
+    parentId: fld_fdcb31831e4145c49d971dc42489ad54
+    modified: 1661438876841
+    created: 1659751935597
+    url: localhost:8080/avaliacoes-credito
+    name: Status
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjE0NDI0NDAsImlhdCI6MTY2MTQzODg0MCwianRpIjoiMGVmNzFkZGYtZTM1ZS00MmI3LWFmNzgtYWU4ZWZiM2M2ZTExIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjNlMTdjMjU0LWQ5NmMtNDkzMC05NGRmLWQwOGY5MGEyODg1NyIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiY2xpZW50SWQiOiJtc2NyZWRpdG8iLCJjbGllbnRIb3N0IjoiMTcyLjE4LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.MiJxcigK02W-M9cxvlfAIfYPr1okTtKyqMq5XMp9ZRK7LPSBfzIePI330iN-L2fUX9znWcPuJ-EXMiGY6jS3g78S1PUbiwD0ztaxoeYimcUTyCtHW5IBdV7fKErNp5gqdIIUuEzvMf96hVN3clvdWl5CbA_S6PcrI6ogzUrjYEZrQwJQWFyGMBKVfKxGp1LMw17ZlPtnbyVOE6VL3u9D6DyuCZurn3YHSJqnj9DQgwAjDUtGhDLSJei1RNRReIByGCKa0iK1F6dspljReUN-AzUWJrIzNpffRb7yf9TsK5T1lsAglUKP4J-irfLjOuBHf529ubcOJEgjchUhBpKBgg
+    metaSortKey: -1659751811571
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_fdcb31831e4145c49d971dc42489ad54
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1659751789426
+    created: 1659751789426
+    name: Avaliador Credito
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1659751789426
+    _type: request_group
+  - _id: req_0196976afdd34dcca95424401650b5cd
+    parentId: fld_fdcb31831e4145c49d971dc42489ad54
+    modified: 1661387901916
+    created: 1659751811521
+    url: localhost:8080/avaliacoes-credito/situacao-cliente
+    name: Situacao cliente
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_54bfd99038d84b748efbc6dd6026686e
+        name: cpf
+        value: "01234567809"
+        description: ""
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659751811521
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_eec159c3a6934c5c9b81ebc5ec57a3cc
+    parentId: fld_fdcb31831e4145c49d971dc42489ad54
+    modified: 1661363182096
+    created: 1660687831573
+    url: localhost:8080/avaliacoes-credito
+    name: Avalicao cliente
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"cpf": "01234567809",
+        	"renda": 5000
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_114b5cf434214d368e893281c0f9bfe0
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659658570408.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_08860211145b44e2bbf2107ea2f4ffbb
+    parentId: fld_fdcb31831e4145c49d971dc42489ad54
+    modified: 1661363226977
+    created: 1660781530837
+    url: localhost:8080/avaliacoes-credito/solicitacoes-cartao
+    name: Solicitacao Emissao Cliente
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"idCartao": 2,
+        	"cpf": "01234567809",
+        	"endereco": "Rua XPTO",
+        	"limiteLiberado": 23000
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_114b5cf434214d368e893281c0f9bfe0
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659611949852.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_21035c72d9684ae5b33aa37b47681171
+    parentId: fld_34ca4284de6a476698fe13c481132f18
+    modified: 1661438867458
+    created: 1659745276267
+    url: localhost:8080/cartoes
+    name: Status
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjE0NDI0NDAsImlhdCI6MTY2MTQzODg0MCwianRpIjoiMGVmNzFkZGYtZTM1ZS00MmI3LWFmNzgtYWU4ZWZiM2M2ZTExIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjNlMTdjMjU0LWQ5NmMtNDkzMC05NGRmLWQwOGY5MGEyODg1NyIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiY2xpZW50SWQiOiJtc2NyZWRpdG8iLCJjbGllbnRIb3N0IjoiMTcyLjE4LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.MiJxcigK02W-M9cxvlfAIfYPr1okTtKyqMq5XMp9ZRK7LPSBfzIePI330iN-L2fUX9znWcPuJ-EXMiGY6jS3g78S1PUbiwD0ztaxoeYimcUTyCtHW5IBdV7fKErNp5gqdIIUuEzvMf96hVN3clvdWl5CbA_S6PcrI6ogzUrjYEZrQwJQWFyGMBKVfKxGp1LMw17ZlPtnbyVOE6VL3u9D6DyuCZurn3YHSJqnj9DQgwAjDUtGhDLSJei1RNRReIByGCKa0iK1F6dspljReUN-AzUWJrIzNpffRb7yf9TsK5T1lsAglUKP4J-irfLjOuBHf529ubcOJEgjchUhBpKBgg
+    metaSortKey: -1659543576783.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_34ca4284de6a476698fe13c481132f18
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1659646444864
+    created: 1659646420732
+    name: Cartoes
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1659646420732
+    _type: request_group
+  - _id: req_6bbd12cff6284098ac071c540f1432c2
+    parentId: fld_34ca4284de6a476698fe13c481132f18
+    modified: 1661361547754
+    created: 1659646467422
+    url: localhost:8080/cartoes
+    name: Salvar
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Itaú visa",
+        	"bandeira": "VISA",
+        	"renda": 5000,
+        	"limite": 10000
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0162f796ef7842b29359c322a0272528
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659543576733.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b6b0ea7c44b8454e8f0c9dee004f0cb7
+    parentId: fld_34ca4284de6a476698fe13c481132f18
+    modified: 1661361571665
+    created: 1659646922480
+    url: localhost:8080/cartoes
+    name: Buscar com renda ate
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e36a6a07924f40f79d9948f9b17aa191
+        name: renda
+        value: "5000"
+        description: ""
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659532700476.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_590d2821d95344dc9cd206bb3e378146
+    parentId: fld_34ca4284de6a476698fe13c481132f18
+    modified: 1661363171290
+    created: 1659745180176
+    url: localhost:8080/cartoes
+    name: Buscar por cliente
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_94500f3ec2b945a1a77a923189d77b66
+        name: cpf
+        value: "01234567809"
+        description: ""
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659527262348.6875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c8ac8e9945c74c128f531bc168690f2b
+    parentId: fld_7075dd63893d4dfdb0497cd64c5793f2
+    modified: 1661438850984
+    created: 1659623862623
+    url: localhost:8080/clientes
+    name: Status
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjE0NDI0NDAsImlhdCI6MTY2MTQzODg0MCwianRpIjoiMGVmNzFkZGYtZTM1ZS00MmI3LWFmNzgtYWU4ZWZiM2M2ZTExIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjNlMTdjMjU0LWQ5NmMtNDkzMC05NGRmLWQwOGY5MGEyODg1NyIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiY2xpZW50SWQiOiJtc2NyZWRpdG8iLCJjbGllbnRIb3N0IjoiMTcyLjE4LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.MiJxcigK02W-M9cxvlfAIfYPr1okTtKyqMq5XMp9ZRK7LPSBfzIePI330iN-L2fUX9znWcPuJ-EXMiGY6jS3g78S1PUbiwD0ztaxoeYimcUTyCtHW5IBdV7fKErNp5gqdIIUuEzvMf96hVN3clvdWl5CbA_S6PcrI6ogzUrjYEZrQwJQWFyGMBKVfKxGp1LMw17ZlPtnbyVOE6VL3u9D6DyuCZurn3YHSJqnj9DQgwAjDUtGhDLSJei1RNRReIByGCKa0iK1F6dspljReUN-AzUWJrIzNpffRb7yf9TsK5T1lsAglUKP4J-irfLjOuBHf529ubcOJEgjchUhBpKBgg
+      disabled: false
+    metaSortKey: -1659565329296
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_7075dd63893d4dfdb0497cd64c5793f2
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1659565304853
+    created: 1659565304853
+    name: Clientes
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1659565304853
+    _type: request_group
+  - _id: req_452a413c44244340971bdaba2d87b705
+    parentId: fld_7075dd63893d4dfdb0497cd64c5793f2
+    modified: 1661361412957
+    created: 1659565329246
+    url: localhost:8080/clientes
+    name: Salvar
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Zezinho",
+        	"cpf": "01234567809",
+        	"idade": 23
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_0162f796ef7842b29359c322a0272528
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659565329246
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_310046992e984801980a1f636eb543d2
+    parentId: fld_7075dd63893d4dfdb0497cd64c5793f2
+    modified: 1661361449515
+    created: 1659565763117
+    url: localhost:8080/clientes
+    name: Buscar
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_1ba548c7899f4da69bf7b1bafa279898
+        name: cpf
+        value: "01234567809"
+        description: ""
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsX3FveFZ3LUhRY240T0N0QVlzWHZET0MtWEdkOXBBME1feDhULW16MDRnIn0.eyJleHAiOjE2NjEzNjQ5MDMsImlhdCI6MTY2MTM2MTMwMywianRpIjoiMzBkYTc4OTUtMTI4Ny00YTE1LWE1ZjktMzM0MzcyYWY3YjQ5IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIzZTE3YzI1NC1kOTZjLTQ5MzAtOTRkZi1kMDhmOTBhMjg4NTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.Flt2UeOUccqyHhhulgxIQpOgvO7oGYAXwcQipl6hi5B9nJ_FnJAJ3Zk-n3RG1tVXcchkqjI0Ffvs-DerPvcNIUtthAWjAXijj4gsFcyASSSbU2-5wFln9qkV43vJYmnIIHQzy7pfweywwWOpYpsk4u2J5Bi-tMqLTwaYiDxDiG_oBUXZPhQzFcBAu09mvIDloxT8THM3uaQieV9WmC6FfykZVwHu96nwifglg--BlFFA6Rv1vU-KrHIZ-AOYe7947GZF6JaOBAvlO9ybY2dZbe8Q_kEnNMMoaiBsBqyNzb6qD6ZMZG_ZFeuwjLzZ3wc9d9uDY4TgSPhVq_Z0asssZA
+    metaSortKey: -1659521824220.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_ddd7ef934c1ebcefaa3637f44c43d35655f10205
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1661442825004
+    created: 1659565267236
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: {}
+    color: null
+    isPrivate: false
+    metaSortKey: 1659565267236
+    _type: environment
+  - _id: jar_ddd7ef934c1ebcefaa3637f44c43d35655f10205
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1661438840854
+    created: 1659565267237
+    name: Default Jar
+    cookies:
+      - key: KC_RESTART
+        expires: 1970-01-01T00:00:10.000Z
+        maxAge: 0
+        domain: localhost
+        path: /realms/mscourserealm/
+        httpOnly: true
+        extensions:
+          - Version=1
+        hostOnly: true
+        creation: 2022-08-18T17:21:58.763Z
+        lastAccessed: 2022-08-25T14:47:20.853Z
+        id: "8925725814371899"
+    _type: cookie_jar
+  - _id: spc_28cff6fa947f46bdafd665e8712476f2
+    parentId: wrk_6d21e9669543490a9044fbbd61d1eb10
+    modified: 1659565267232
+    created: 1659565267232
+    fileName: Curso Microservices
+    contents: ""
+    contentType: yaml
+    _type: api_spec

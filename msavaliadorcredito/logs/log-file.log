@@ -1,0 +1,103 @@
+2022-08-25 09:40:14.432  INFO 181839 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 18.0.2 on fedora with PID 181839 (started by gilsonsilva in /home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito)
+2022-08-25 09:40:14.436  INFO 181839 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 09:40:15.525  INFO 181839 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91f929c7-e322-39b7-9a31-1fce53952b8a
+2022-08-25 09:40:16.203  INFO 181839 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 09:40:16.297  INFO 181839 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 09:40:18.265  INFO 181839 --- [Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-25 09:40:18.329  WARN 181839 --- [Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-25 09:40:18.344  INFO 181839 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-08-25 09:40:18.406  INFO 181839 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 4.27 seconds (JVM running for 5.535)
+2022-08-25 09:40:18.791  INFO 181839 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-25 09:40:18.793  INFO 181839 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-08-25 10:36:07.667  INFO 192820 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 18.0.2 on fedora with PID 192820 (started by gilsonsilva in /home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito)
+2022-08-25 10:36:07.668  INFO 192820 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 10:36:08.637  INFO 192820 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91f929c7-e322-39b7-9a31-1fce53952b8a
+2022-08-25 10:36:09.236  INFO 192820 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 10:36:09.304  INFO 192820 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 10:36:11.311  INFO 192820 --- [Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-25 10:36:11.387  WARN 192820 --- [Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-25 10:36:11.406  INFO 192820 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-08-25 10:36:11.479  INFO 192820 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 4.094 seconds (JVM running for 4.93)
+2022-08-25 10:36:11.875  INFO 192820 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-25 10:36:11.877  INFO 192820 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-08-25 10:47:50.399  INFO 194811 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 18.0.2 on fedora with PID 194811 (started by gilsonsilva in /home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito)
+2022-08-25 10:47:50.400  INFO 194811 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 10:47:51.565  INFO 194811 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91f929c7-e322-39b7-9a31-1fce53952b8a
+2022-08-25 10:47:52.302  INFO 194811 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 10:47:52.385  INFO 194811 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 10:47:54.444  INFO 194811 --- [Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-25 10:47:54.532  WARN 194811 --- [Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-25 10:47:54.547  INFO 194811 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-08-25 10:47:54.607  INFO 194811 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 4.513 seconds (JVM running for 5.277)
+2022-08-25 10:47:55.013  INFO 194811 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-25 10:47:55.014  INFO 194811 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-08-25 11:18:10.461  INFO 201118 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 18.0.2 on fedora with PID 201118 (started by gilsonsilva in /home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito)
+2022-08-25 11:18:10.463  INFO 201118 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 11:18:11.623  INFO 201118 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91f929c7-e322-39b7-9a31-1fce53952b8a
+2022-08-25 11:18:12.307  INFO 201118 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 11:18:12.432  INFO 201118 --- [Test worker] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 11:18:14.422  INFO 201118 --- [Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-25 11:18:14.523  WARN 201118 --- [Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-25 11:18:14.554  INFO 201118 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-08-25 11:18:14.657  INFO 201118 --- [Test worker] g.g.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 4.494 seconds (JVM running for 5.321)
+2022-08-25 11:18:14.994  INFO 201118 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-25 11:18:14.996  INFO 201118 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-08-25 11:40:18.084  INFO 205187 --- [restartedMain] i.g.g.m.MsavaliadorcreditoApplication    : Starting MsavaliadorcreditoApplication using Java 18.0.2 on fedora with PID 205187 (/home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito/build/classes/java/main started by gilsonsilva in /home/gilsonsilva/Desenvolvimento/ide/projeto-cursoms/msavaliadorcredito)
+2022-08-25 11:40:18.085  INFO 205187 --- [restartedMain] i.g.g.m.MsavaliadorcreditoApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 11:40:18.129  INFO 205187 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 11:40:18.129  INFO 205187 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 11:40:18.995  INFO 205187 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=15fa0439-aab4-3b85-82a5-f413274cfcf4
+2022-08-25 11:40:19.397  INFO 205187 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-25 11:40:19.404  INFO 205187 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-25 11:40:19.404  INFO 205187 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 11:40:19.465  INFO 205187 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-25 11:40:19.465  INFO 205187 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2022-08-25 11:40:19.735  WARN 205187 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-08-25 11:40:19.777  INFO 205187 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 11:40:19.828  INFO 205187 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-08-25 11:40:20.697  INFO 205187 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-25 11:40:20.733  WARN 205187 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-25 11:40:20.742  INFO 205187 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-08-25 11:40:20.775  INFO 205187 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 33849 (http) with context path ''
+2022-08-25 11:40:20.776  INFO 205187 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 33849
+2022-08-25 11:40:20.779  INFO 205187 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-25 11:40:20.825  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-25 11:40:20.830  INFO 205187 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-25 11:40:20.844  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-08-25 11:40:20.845  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-25 11:40:21.115  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-25 11:40:21.116  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-08-25 11:40:21.118  INFO 205187 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-25 11:40:21.121  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1661438421121 with initial instances count: 0
+2022-08-25 11:40:21.122  INFO 205187 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2022-08-25 11:40:21.123  INFO 205187 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1661438421123, current=UP, previous=STARTING]
+2022-08-25 11:40:21.123  INFO 205187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:c5c709543cd157ab5aed98ad98b923e7: registering service...
+2022-08-25 11:40:21.148  INFO 205187 --- [restartedMain] i.g.g.m.MsavaliadorcreditoApplication    : Started MsavaliadorcreditoApplication in 3.391 seconds (JVM running for 3.701)
+2022-08-25 11:40:21.286  INFO 205187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:c5c709543cd157ab5aed98ad98b923e7 - registration status: 204
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-08-25 11:40:51.117  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-08-25 11:40:51.130  INFO 205187 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-08-25 11:45:20.849  INFO 205187 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-25 11:47:58.278  INFO 205187 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 11:47:58.278  INFO 205187 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-25 11:47:58.289  INFO 205187 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-08-25 11:47:58.319  INFO 205187 --- [http-nio-auto-1-exec-1] i.g.g.m.a.c.AvaliadorCreditoController   : Obtendo o status do microservice avaliador credito
+2022-08-25 11:48:49.547  INFO 205187 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-08-25 11:48:49.547  INFO 205187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1661438929547, current=DOWN, previous=UP]
+2022-08-25 11:48:49.547  INFO 205187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:c5c709543cd157ab5aed98ad98b923e7: registering service...
+2022-08-25 11:48:49.554  INFO 205187 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:c5c709543cd157ab5aed98ad98b923e7 - registration status: 204
+2022-08-25 11:48:49.575  INFO 205187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-25 11:48:52.576  WARN 205187 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-08-25 11:48:52.578  INFO 205187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-25 11:48:52.582  INFO 205187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:c5c709543cd157ab5aed98ad98b923e7 - deregister  status: 200
+2022-08-25 11:48:52.587  INFO 205187 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
